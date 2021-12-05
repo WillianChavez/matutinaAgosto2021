@@ -10,36 +10,81 @@
         <main class="main">
             <header class="cabecera">
                 <h1 class="titulo--principal">MATUTINA AGOSTO 2021</h1>
+                <p class="indicaciones">
+                    <span class="importante">¡Indicaciones!</span> Después de empezar la ronda, el resultado se mostrará
+                    por 5 segundos, luego se ocultará pasados los 5 segundos, suerte.
+                </p>
             </header>
-            <section id="ronda1" class="ronda">
-                <h2 class="titulo">RONDA 1</h2>
-                <p class="parrafo"></p>
-                <button class="boton">EMPEZAR</button>
-            </section>
+            <div class="rondas">
+                <section id="ronda1" class="ronda">
+                    <h2 class="titulo">RONDA 1</h2>
+                    <p class="parrafo">
+                        Se mostrará un número aleatorio del 1 al 31, el participante dirá la matutina de esa fecha
+                    </p>
+                    <p class="mensaje">resultado</p>
+                    <div class="resultado"></div>
+                    <div class="botones">
+                        <button class="boton">EMPEZAR</button>
+                    </div>
+                </section>
 
-            <section id="ronda2" class="ronda">
-                <h2 class="titulo">RONDA 2</h2>
-                <p class="parrafo"></p>
-                <button class="boton">EMPEZAR</button>
-            </section>
+                <section id="ronda2" class="ronda">
+                    <h2 class="titulo">RONDA 2</h2>
+                    <p class="parrafo">
+                        Se mostrarán 3 números del 1 al 31, el participante dira la matutina de esas 3 fechas en orden
+                        descendente
+                    </p>
+                    <p class="mensaje">resultado</p>
+                    <div class="resultado"></div>
+                    <div class="botones">
+                        <button class="boton">EMPEZAR</button>
+                        <button class="boton">MOSTRAR DIAS</button>
+                    </div>
+                </section>
 
-            <section id="ronda3" class="ronda">
-                <h2 class="titulo">RONDA 3</h2>
-                <p class="parrafo"></p>
-                <button class="boton">EMPEZAR</button>
-            </section>
+                <section id="ronda3" class="ronda">
+                    <h2 class="titulo">RONDA 3</h2>
+                    <p class="parrafo">
+                        Se mostrarán 3 títulos, el participante dirá la matutina de esos 3 titulos en orden descendente
+                    </p>
+                    <p class="mensaje">resultado</p>
+                    <div class="resultado"></div>
 
-            <section id="ronda4" class="ronda">
-                <h2 class="titulo">RONDA 4</h2>
-                <p class="parrafo"></p>
-                <button class="boton">EMPEZAR</button>
-            </section>
+                    <div class="botones">
+                        <button class="boton">EMPEZAR</button>
+                        <button class="boton">MOSTRAR TÍTULOS</button>
+                    </div>
+                </section>
 
-            <section id="ronda5" class="ronda">
-                <h2 class="titulo">RONDA 5</h2>
-                <p class="parrafo"></p>
-                <button class="boton">EMPEZAR</button>
-            </section>
+                <section id="ronda4" class="ronda">
+                    <h2 class="titulo">RONDA 4</h2>
+                    <p class="parrafo">
+                        Repeteción días de la semana, el participante al obtener un dia de la semana, repetirá la
+                        matutina que correspondan a ese dia en todo el mes, ejemplo si sale domingo, dirá la matutina de
+                        todos los domingos del mes de agosto
+                    </p>
+                    <p class="mensaje">resultado</p>
+                    <div class="resultado"></div>
+                    <div class="botones">
+                        <button class="boton">EMPEZAR</button>
+                        <button class="boton">MOSTRAR DÍA</button>
+                    </div>
+                </section>
+
+                <section id="ronda5" class="ronda">
+                    <h2 class="titulo">RONDA 5</h2>
+                    <p class="parrafo">
+                        Se mostrará un número del 1 al 5 correspondiente al número de semanas del mes, el participante
+                        dirá la matutina de esa semana
+                    </p>
+                    <p class="mensaje">resultado</p>
+                    <div class="resultado"></div>
+                    <div class="botones">
+                        <button class="boton">EMPEZAR</button>
+                        <button class="boton">MOSTRAR Nº DE SEMANA</button>
+                    </div>
+                </section>
+            </div>
         </main>
         <script src="./scripts.js"></script>
     </body>
