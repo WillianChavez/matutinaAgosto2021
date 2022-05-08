@@ -28,19 +28,20 @@ body {
 
 .rondas {
     display: grid;
-    margin: 2em;
-    grid-template-columns: repeat(auto-fit, minmax(min(28rem, 100%), 1fr));
+    margin: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr));
     gap: 2em;
 }
 .ronda {
     background-color: #555;
     border-radius: 30px;
-    padding: 1em;
+    padding: 10px;
     min-height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 .mensaje {
     font-weight: bold;
@@ -50,8 +51,6 @@ body {
 .resultado {
     background-color: #333;
     min-height: 10rem;
-    width: 70%;
-    margin: 0 auto 1em;
     border-radius: 30px;
     font-size: 2rem;
     display: flex;
@@ -59,6 +58,7 @@ body {
     align-items: center;
 }
 .botones {
+    margin-top: 12px;
     text-align: center;
 }
 
